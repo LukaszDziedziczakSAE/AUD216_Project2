@@ -279,13 +279,21 @@
     "Type": "User",
     "GUID": "{68FEB4CA-3C1B-4018-848B-070A85B21B05}",
     "Language": "SFX",
-    "Hash": "{F9ADA1FA-87B8-F427-32E6-2D71B2151BA4}",
+    "Hash": "{DBC86CB0-30F0-3D9F-E474-C667C7AA2AEC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "106406543",
+      "Id": "99628107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tick 3.wav",
+      "CachePath": "8E/{8E6C23BA-A560-7928-73B9-302711A399F9}.wem"
+     },
+     {
+      "Id": "112589281",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
@@ -293,7 +301,15 @@
       "CachePath": "5F/{5F5BB9C9-937A-039C-1363-DF5E16B589C9}.wem"
      },
      {
-      "Id": "227508849",
+      "Id": "192687916",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tock 2.wav",
+      "CachePath": "58/{585E51CE-3C3D-057D-0B24-6621702E11BD}.wem"
+     },
+     {
+      "Id": "265277599",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
@@ -301,12 +317,12 @@
       "CachePath": "4C/{4C58372B-4EA1-7B69-C250-18770260775D}.wem"
      },
      {
-      "Id": "339765034",
+      "Id": "352264936",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Tick 3.wav",
-      "CachePath": "8E/{8E6C23BA-A560-7928-73B9-302711A399F9}.wem"
+      "ShortName": "Tick 4.wav",
+      "CachePath": "80/{8005151A-DAD3-AB43-8758-0C37421BD37A}.wem"
      },
      {
       "Id": "389546834",
@@ -317,30 +333,6 @@
       "CachePath": "05/{05645C52-5D86-D254-AE09-F1EC97848C60}.wem"
      },
      {
-      "Id": "448089929",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Tock 2.wav",
-      "CachePath": "58/{585E51CE-3C3D-057D-0B24-6621702E11BD}.wem"
-     },
-     {
-      "Id": "466185801",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Tick 4.wav",
-      "CachePath": "80/{8005151A-DAD3-AB43-8758-0C37421BD37A}.wem"
-     },
-     {
-      "Id": "561937655",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Tock 1.wav",
-      "CachePath": "4B/{4B58A94E-DB13-DB0A-87D9-31072B12C0D2}.wem"
-     },
-     {
       "Id": "629568929",
       "Language": "SFX",
       "Streaming": "false",
@@ -349,7 +341,15 @@
       "CachePath": "07/{0742D5EA-D81F-4DF3-E865-DC1E62A8104D}.wem"
      },
      {
-      "Id": "649728702",
+      "Id": "745741709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tock 1.wav",
+      "CachePath": "4B/{4B58A94E-DB13-DB0A-87D9-31072B12C0D2}.wem"
+     },
+     {
+      "Id": "922310988",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
@@ -357,7 +357,7 @@
       "CachePath": "3D/{3D3530A4-AE4F-8FCE-DB7B-FECEB4DA0A3D}.wem"
      },
      {
-      "Id": "935646294",
+      "Id": "1048803701",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
@@ -548,8 +548,8 @@
       "GUID": "{037A63B8-9293-449D-A914-EF235A929EB8}",
       "Color": "11",
       "DurationType": "OneShot",
-      "DurationMin": "0.1482206",
-      "DurationMax": "0.17144503",
+      "DurationMin": "0.15941043",
+      "DurationMax": "0.15941043",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -801,32 +801,32 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Clocks\\Play_Grandfather_Clock_Ticking",
       "GUID": "{A15199B0-F54B-4441-B224-B4258866278A}",
       "Color": "9",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "15",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "106406543"
+        "Id": "99628107"
        },
        {
-        "Id": "227508849"
+        "Id": "112589281"
        },
        {
-        "Id": "339765034"
+        "Id": "192687916"
        },
        {
-        "Id": "448089929"
+        "Id": "265277599"
        },
        {
-        "Id": "466185801"
+        "Id": "352264936"
        },
        {
-        "Id": "561937655"
+        "Id": "745741709"
        },
        {
-        "Id": "649728702"
+        "Id": "922310988"
        },
        {
-        "Id": "935646294"
+        "Id": "1048803701"
        }
       ]
      },
@@ -849,7 +849,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Clocks\\Play_Guesthouse_clock",
       "GUID": "{E74BDFC5-20BD-416A-9B16-2122C1C5B3BE}",
       "Color": "9",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "15",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -981,7 +981,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Clocks\\Play_Small_clock",
       "GUID": "{C2891E75-2A3A-463C-8A87-15354CB426D2}",
       "Color": "9",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "15",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1329,6 +1329,6 @@
     ]
    }
   ],
-  "FileHash": "{8DEB3D97-EFEB-67FA-4882-2434C698E332}"
+  "FileHash": "{9A14999F-E7E0-E9E6-3DB1-BE227CD56DF6}"
  }
 }

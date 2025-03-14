@@ -1904,6 +1904,9 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-360</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{411F7D23-F740-48EA-93FD-40B7580CB176}"/>
@@ -1911,8 +1914,8 @@
 											</ModifierList>
 										</Property>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
@@ -1942,7 +1945,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Placeholder Sound SFX" ID="{C6666B6A-EF52-4F4F-B510-CC2E768E8B8B}" ShortID="576985102">
+												<Sound Name="Tick 1" ID="{649D9B52-BAD8-445E-8CAF-41F076059964}" ShortID="773892512">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
@@ -1952,16 +1955,82 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Silence" ID="{EFEFBC75-B8C8-4B11-B1F0-928CE0BC1A02}">
+														<AudioFileSource Name="Tick 1" ID="{E7233AC4-A235-4472-909F-4BBF626E9DF7}">
 															<Language>SFX</Language>
-															<AudioFile>Silence.wav</AudioFile>
+															<AudioFile>Tick 1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="389546834"/>
+																<MediaID ID="922310988"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Silence" ID="{EFEFBC75-B8C8-4B11-B1F0-928CE0BC1A02}" Platform="Linked"/>
+														<ActiveSource Name="Tick 1" ID="{E7233AC4-A235-4472-909F-4BBF626E9DF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tick 2" ID="{8D2474D0-300C-4FCF-BB04-3C15A1426A66}" ShortID="465257109">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tick 2" ID="{E677C94E-6495-4E57-A720-63254EA59C1B}">
+															<Language>SFX</Language>
+															<AudioFile>Tick 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="265277599"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tick 2" ID="{E677C94E-6495-4E57-A720-63254EA59C1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tick 3" ID="{CCD8F21A-5834-47F5-9BF2-BB3A7413442C}" ShortID="1059392873">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tick 3" ID="{7BA6C541-212B-495D-BD6B-61A7D7218128}">
+															<Language>SFX</Language>
+															<AudioFile>Tick 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="99628107"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tick 3" ID="{7BA6C541-212B-495D-BD6B-61A7D7218128}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tick 4" ID="{7B77C231-6DDB-42CE-B5B0-C71BC887765C}" ShortID="256427043">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tick 4" ID="{23DD9950-F411-4A15-AF72-5185C92AFC4E}">
+															<Language>SFX</Language>
+															<AudioFile>Tick 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="352264936"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tick 4" ID="{23DD9950-F411-4A15-AF72-5185C92AFC4E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -1979,7 +2048,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Placeholder Sound SFX" ID="{4D3C0B8C-F834-43E0-80E8-C8ED3A400D7A}" ShortID="350150469">
+												<Sound Name="Tock 1" ID="{9AE311ED-35F0-4169-8000-A972B539A6E4}" ShortID="695029621">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
@@ -1989,16 +2058,82 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Silence" ID="{EF20EF4A-6162-43BF-B1B8-08B9CFB31281}">
+														<AudioFileSource Name="Tock 1" ID="{A9D8663F-F82A-4E62-BD80-B74BFD4DB5A5}">
 															<Language>SFX</Language>
-															<AudioFile>Silence.wav</AudioFile>
+															<AudioFile>Tock 1.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="389546834"/>
+																<MediaID ID="745741709"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Silence" ID="{EF20EF4A-6162-43BF-B1B8-08B9CFB31281}" Platform="Linked"/>
+														<ActiveSource Name="Tock 1" ID="{A9D8663F-F82A-4E62-BD80-B74BFD4DB5A5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tock 2" ID="{E7F1955A-BF86-41D8-8595-EB7B7BF7CFD0}" ShortID="320813381">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tock 2" ID="{2E3007A7-63F7-436A-8170-ACA894764849}">
+															<Language>SFX</Language>
+															<AudioFile>Tock 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="192687916"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tock 2" ID="{2E3007A7-63F7-436A-8170-ACA894764849}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tock 3" ID="{74A6DCCD-F0CB-427C-A6AC-F24FE55B12C9}" ShortID="973036422">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tock 3" ID="{34E55774-9110-41B4-BF0B-091F7EB11579}">
+															<Language>SFX</Language>
+															<AudioFile>Tock 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1048803701"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tock 3" ID="{34E55774-9110-41B4-BF0B-091F7EB11579}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tock 4" ID="{BC5263D7-B7B7-4B02-BF45-EFB6F5E537EB}" ShortID="462681778">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tock 4" ID="{8CD4B100-6BCD-4307-938E-E0300A5B71E7}">
+															<Language>SFX</Language>
+															<AudioFile>Tock 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="112589281"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tock 4" ID="{8CD4B100-6BCD-4307-938E-E0300A5B71E7}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -2271,6 +2406,7 @@
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
@@ -2324,6 +2460,94 @@
 														<ActiveSource Name="Silence" ID="{EC650F8D-C0F9-4B44-9EC4-E8130E7EFF2C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="Tick 1" ID="{79D37E8B-D975-441A-82D7-FA4A9D1800F8}" ShortID="177734352">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tick 1" ID="{DA5DB0F9-0CF1-4AA8-8F94-29B6396547C7}">
+															<Language>SFX</Language>
+															<AudioFile>Tick 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="922310988"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tick 1" ID="{DA5DB0F9-0CF1-4AA8-8F94-29B6396547C7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tick 2" ID="{28C11629-E07C-4667-B0BD-E913D27F65F3}" ShortID="526139230">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tick 2" ID="{D3281DA4-CEBB-404E-BFB5-EA859C0057CF}">
+															<Language>SFX</Language>
+															<AudioFile>Tick 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="265277599"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tick 2" ID="{D3281DA4-CEBB-404E-BFB5-EA859C0057CF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tick 3" ID="{F6ACBCE4-9D10-4186-9C15-71DB2958F554}" ShortID="744087714">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tick 3" ID="{F9C05FA3-6EA6-4C68-8FF1-A3F8DA454655}">
+															<Language>SFX</Language>
+															<AudioFile>Tick 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="99628107"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tick 3" ID="{F9C05FA3-6EA6-4C68-8FF1-A3F8DA454655}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tick 4" ID="{796D087C-F3DC-4F85-B99E-56C6CA75122E}" ShortID="340306900">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tick 4" ID="{D5081BD1-C1B5-4541-926F-2594BCD43287}">
+															<Language>SFX</Language>
+															<AudioFile>Tick 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="352264936"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tick 4" ID="{D5081BD1-C1B5-4541-926F-2594BCD43287}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Tock" ID="{C6AEB033-9C84-4B49-9479-F77047BC9EC3}" ShortID="817505414">
@@ -2359,6 +2583,94 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Silence" ID="{078B2790-8B0D-4A3D-958D-94FC6798A1BF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tock 1" ID="{E2A2390F-1C58-414D-8C2E-FCF636227B72}" ShortID="617621159">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tock 1" ID="{D9D06C5D-CBE0-4A3B-A600-189F42B5D376}">
+															<Language>SFX</Language>
+															<AudioFile>Tock 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="745741709"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tock 1" ID="{D9D06C5D-CBE0-4A3B-A600-189F42B5D376}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tock 2" ID="{7A21DB63-A5DC-47BE-AAE9-EB21CC417172}" ShortID="287751604">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tock 2" ID="{2D392CA0-B65F-4985-9679-7E7CFBFA2CF9}">
+															<Language>SFX</Language>
+															<AudioFile>Tock 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="192687916"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tock 2" ID="{2D392CA0-B65F-4985-9679-7E7CFBFA2CF9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tock 3" ID="{DBA6E9A4-F518-4D99-AE50-8C748AC6088E}" ShortID="138886471">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tock 3" ID="{3718463D-A779-4F1A-8D7F-FF056178CBCD}">
+															<Language>SFX</Language>
+															<AudioFile>Tock 3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1048803701"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tock 3" ID="{3718463D-A779-4F1A-8D7F-FF056178CBCD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Tock 4" ID="{A006A4D4-B11D-48C6-82E0-C9A990C4DD17}" ShortID="750815602">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Tock 4" ID="{2487290E-A672-435D-A0C2-03961ADC887A}">
+															<Language>SFX</Language>
+															<AudioFile>Tock 4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="112589281"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Tock 4" ID="{2487290E-A672-435D-A0C2-03961ADC887A}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

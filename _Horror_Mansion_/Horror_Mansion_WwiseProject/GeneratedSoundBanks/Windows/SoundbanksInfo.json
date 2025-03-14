@@ -287,11 +287,51 @@
     "Type": "User",
     "GUID": "{68FEB4CA-3C1B-4018-848B-070A85B21B05}",
     "Language": "SFX",
-    "Hash": "{226712A3-2814-E8AA-1323-457CD3614C8E}",
+    "Hash": "{DBC86CB0-30F0-3D9F-E474-C667C7AA2AEC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "99628107",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tick 3.wav",
+      "CachePath": "8E/{8E6C23BA-A560-7928-73B9-302711A399F9}.wem"
+     },
+     {
+      "Id": "112589281",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tock 4.wav",
+      "CachePath": "5F/{5F5BB9C9-937A-039C-1363-DF5E16B589C9}.wem"
+     },
+     {
+      "Id": "192687916",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tock 2.wav",
+      "CachePath": "58/{585E51CE-3C3D-057D-0B24-6621702E11BD}.wem"
+     },
+     {
+      "Id": "265277599",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tick 2.wav",
+      "CachePath": "4C/{4C58372B-4EA1-7B69-C250-18770260775D}.wem"
+     },
+     {
+      "Id": "352264936",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tick 4.wav",
+      "CachePath": "80/{8005151A-DAD3-AB43-8758-0C37421BD37A}.wem"
+     },
      {
       "Id": "389546834",
       "Language": "SFX",
@@ -307,6 +347,30 @@
       "Location": "Memory",
       "ShortName": "Silence.wav",
       "CachePath": "07/{0742D5EA-D81F-4DF3-E865-DC1E62A8104D}.wem"
+     },
+     {
+      "Id": "745741709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tock 1.wav",
+      "CachePath": "4B/{4B58A94E-DB13-DB0A-87D9-31072B12C0D2}.wem"
+     },
+     {
+      "Id": "922310988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tick 1.wav",
+      "CachePath": "3D/{3D3530A4-AE4F-8FCE-DB7B-FECEB4DA0A3D}.wem"
+     },
+     {
+      "Id": "1048803701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tock 3.wav",
+      "CachePath": "08/{081F3F20-216B-4E4A-3EB0-D0FC668B33A0}.wem"
      }
     ],
     "Plugins": {
@@ -749,7 +813,28 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "389546834"
+        "Id": "99628107"
+       },
+       {
+        "Id": "112589281"
+       },
+       {
+        "Id": "192687916"
+       },
+       {
+        "Id": "265277599"
+       },
+       {
+        "Id": "352264936"
+       },
+       {
+        "Id": "745741709"
+       },
+       {
+        "Id": "922310988"
+       },
+       {
+        "Id": "1048803701"
        }
       ]
      },
@@ -1252,6 +1337,6 @@
     ]
    }
   ],
-  "FileHash": "{0B067DE8-74DE-2A71-4CFF-EC16376C8CDD}"
+  "FileHash": "{0CB8B72D-946B-C966-CF87-E5F193B30866}"
  }
 }

@@ -85,6 +85,14 @@ Effect plug-ins	ID	Name	Type				Notes
 	1588715066	Echoes_Linear	Wwise Delay			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	389546834	Placeholder Sound SFX	D:\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\05\{05645C52-5D86-D254-AE09-F1EC97848C60}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Grass\Placeholder Sound SFX		14156
-	629568929	Ambience Abandoned Building	D:\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\07\{0742D5EA-D81F-4DF3-E865-DC1E62A8104D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences and Music\Ambience and Music Blend Container - Inside\Ambience Abandoned Building		14156
+	99628107	Tick 3	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\8E\{8E6C23BA-A560-7928-73B9-302711A399F9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tick\Tick 3		67296
+	112589281	Tock 4	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\5F\{5F5BB9C9-937A-039C-1363-DF5E16B589C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tock\Tock 4		67296
+	192687916	Tock 2	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\58\{585E51CE-3C3D-057D-0B24-6621702E11BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tock\Tock 2		67296
+	265277599	Tick 2	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\4C\{4C58372B-4EA1-7B69-C250-18770260775D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tick\Tick 2		67296
+	352264936	Tick 4	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\80\{8005151A-DAD3-AB43-8758-0C37421BD37A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tick\Tick 4		67296
+	389546834	Placeholder Sound SFX	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\05\{05645C52-5D86-D254-AE09-F1EC97848C60}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Grass\Placeholder Sound SFX		14156
+	629568929	Ambience Abandoned Building	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\07\{0742D5EA-D81F-4DF3-E865-DC1E62A8104D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences and Music\Ambience and Music Blend Container - Inside\Ambience Abandoned Building		14156
+	745741709	Tock 1	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\4B\{4B58A94E-DB13-DB0A-87D9-31072B12C0D2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tock\Tock 1		67296
+	922310988	Tick 1	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\3D\{3D3530A4-AE4F-8FCE-DB7B-FECEB4DA0A3D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tick\Tick 1		67296
+	1048803701	Tock 3	C:\Users\1032314\Documents\AUD216_Project2\_Horror_Mansion_\Horror_Mansion_WwiseProject\.cache\08\{081F3F20-216B-4E4A-3EB0-D0FC668B33A0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX General\Clocks\Grandfather clock\Tock\Tock 3		67296
 
