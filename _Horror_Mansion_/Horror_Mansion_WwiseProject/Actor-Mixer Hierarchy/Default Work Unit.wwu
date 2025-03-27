@@ -28,7 +28,7 @@
 									<ObjectRef Name="Carpet" ID="{81BA2B2C-E5A7-4698-BE1D-12447EE52E71}" WorkUnitID="{F402E7D8-581C-4E5A-B531-4849D1CA2753}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+									<ObjectRef Name="Footsteps Bus" ID="{7BBF3419-2A01-4189-85BA-90BF54672D01}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
 									<ObjectRef Name="SurfaceType" ID="{DBCA8106-E181-4078-8432-43ACEC4A73D3}" WorkUnitID="{F402E7D8-581C-4E5A-B531-4849D1CA2753}"/>
@@ -189,6 +189,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Wood" ID="{0179F37D-0C81-4D01-ACF3-6FC51124C3B1}" ShortID="451074489">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
@@ -924,6 +931,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1174,6 +1186,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -1275,6 +1292,13 @@
 									</ChildrenList>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Gravel" ID="{4FE8E207-D32D-49E7-B3C9-5030326E5A95}" ShortID="434021337">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
@@ -1586,20 +1610,25 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+									<ObjectRef Name="Footsteps Bus" ID="{7BBF3419-2A01-4189-85BA-90BF54672D01}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Silence" ID="{70139FE9-228B-4CBF-BB6A-1BB705AF199E}">
+								<AudioFileSource Name="Jump - up" ID="{8636E187-6E26-40C1-B513-047B870AE5C4}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.152656444604114"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Silence.wav</AudioFile>
+									<AudioFile>Jump - up.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="389546834"/>
+										<MediaID ID="936699209"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Silence" ID="{70139FE9-228B-4CBF-BB6A-1BB705AF199E}" Platform="Linked"/>
+								<ActiveSource Name="Jump - up" ID="{8636E187-6E26-40C1-B513-047B870AE5C4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Play_Landing" ID="{2BCAD269-64BC-4B50-BBC0-C556BD91ABE4}" ShortID="827708596">
@@ -1611,20 +1640,25 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+									<ObjectRef Name="Footsteps Bus" ID="{7BBF3419-2A01-4189-85BA-90BF54672D01}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Silence" ID="{233AD65E-B26F-4058-B8EC-257B6F6CFC54}">
+								<AudioFileSource Name="Jump - land" ID="{0A54FA51-2776-42A3-A471-1A1731B66E2B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0266963384414123"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Silence.wav</AudioFile>
+									<AudioFile>Jump - land.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="389546834"/>
+										<MediaID ID="1025511871"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Silence" ID="{233AD65E-B26F-4058-B8EC-257B6F6CFC54}" Platform="Linked"/>
+								<ActiveSource Name="Jump - land" ID="{0A54FA51-2776-42A3-A471-1A1731B66E2B}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

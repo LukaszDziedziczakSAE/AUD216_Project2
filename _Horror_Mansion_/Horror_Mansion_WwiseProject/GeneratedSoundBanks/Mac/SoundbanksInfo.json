@@ -279,7 +279,7 @@
     "Type": "User",
     "GUID": "{68FEB4CA-3C1B-4018-848B-070A85B21B05}",
     "Language": "SFX",
-    "Hash": "{9D2D4B61-B9D2-034A-9120-8225BE699623}",
+    "Hash": "{CAA0F471-1CC1-59F9-553E-B90398FC0880}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -741,6 +741,14 @@
       "CachePath": "3D/{3D3530A4-AE4F-8FCE-DB7B-FECEB4DA0A3D}.wem"
      },
      {
+      "Id": "936699209",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump - up.wav",
+      "CachePath": "CB/{CB358DF6-A0CB-C1AD-0F54-4994356E2126}.wem"
+     },
+     {
       "Id": "939609972",
       "Language": "SFX",
       "Streaming": "false",
@@ -795,6 +803,14 @@
       "Location": "Memory",
       "ShortName": "footstep-rock3.wav",
       "CachePath": "69/{69DA61D5-62C3-07C8-FC68-971159AB50C4}.wem"
+     },
+     {
+      "Id": "1025511871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump - land.wav",
+      "CachePath": "C1/{C12C448C-469B-9B92-9804-040391FB583E}.wem"
      },
      {
       "Id": "1040670168",
@@ -1699,11 +1715,11 @@
       "GUID": "{674C48F8-7938-4D07-97D2-87604770E4BF}",
       "Color": "11",
       "DurationType": "OneShot",
-      "DurationMin": "0.15941043",
-      "DurationMax": "0.15941043",
+      "DurationMin": "0.264127",
+      "DurationMax": "0.264127",
       "MediaRefs": [
        {
-        "Id": "389546834"
+        "Id": "936699209"
        }
       ]
      },
@@ -1714,11 +1730,11 @@
       "GUID": "{16E4E789-8A2E-4E66-A1EE-F6DEF6D27ECC}",
       "Color": "11",
       "DurationType": "OneShot",
-      "DurationMin": "0.15941043",
-      "DurationMax": "0.15941043",
+      "DurationMin": "0.07464853",
+      "DurationMax": "0.07464853",
       "MediaRefs": [
        {
-        "Id": "389546834"
+        "Id": "1025511871"
        }
       ]
      },
@@ -2169,6 +2185,6 @@
     ]
    }
   ],
-  "FileHash": "{2ACDB330-2FDE-D517-E5F4-9C6C67B223CE}"
+  "FileHash": "{45DBCE84-6885-094F-5E56-BD5DC842C4D2}"
  }
 }

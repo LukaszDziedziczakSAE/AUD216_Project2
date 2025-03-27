@@ -505,7 +505,7 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Footsteps\Play_Footstep
       maxAttenuation: 0
       maxDuration: 0.84954166
-      minDuration: 0.15941043
+      minDuration: 0.21542317
     - name: Play_Fridge
       guid: 27f31684b50dfc46b4c24ca84482b068
       id: 2316918641
@@ -690,8 +690,8 @@ MonoBehaviour:
         guid: f8484c673879074d97d287604770e4bf
       Path: Events\Default Work Unit\Footsteps\Play_Jump
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.264127
+      minDuration: 0.264127
     - name: Play_Landing
       guid: 89e7e4162e8a664ea1eef6def6d27ecc
       id: 2323405115
@@ -710,8 +710,8 @@ MonoBehaviour:
         guid: 89e7e4162e8a664ea1eef6def6d27ecc
       Path: Events\Default Work Unit\Footsteps\Play_Landing
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.07464853
+      minDuration: 0.07464853
     - name: Play_Light_switch
       guid: 25d6e1f3c8d91742aca473024fcb254c
       id: 1241030149
