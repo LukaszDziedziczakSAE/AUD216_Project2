@@ -6,8 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Horror Mansion for Sound Design.unity
-    guid: 6270405bb8dd59b4b91942de2fe83d82
+    path: Assets/Horror Mansion.unity
+    guid: b0f9e50b73553774b8e7121869e162dc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3e5488bac51c2415184c6712adf0b626, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b0ca68a864a024890aee0fa9c402bc95, type: 2}
+  m_UseUCBPForAssetBundles: 0

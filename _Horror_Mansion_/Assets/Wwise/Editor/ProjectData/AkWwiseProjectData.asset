@@ -504,7 +504,7 @@ MonoBehaviour:
         guid: b8637a0393929d44a914ef235a929eb8
       Path: Events\Default Work Unit\Footsteps\Play_Footstep
       maxAttenuation: 0
-      maxDuration: 0.15941043
+      maxDuration: 0.84954166
       minDuration: 0.15941043
     - name: Play_Fridge
       guid: 27f31684b50dfc46b4c24ca84482b068
