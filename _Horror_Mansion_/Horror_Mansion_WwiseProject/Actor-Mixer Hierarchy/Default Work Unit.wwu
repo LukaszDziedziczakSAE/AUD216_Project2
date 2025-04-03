@@ -2183,7 +2183,13 @@
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{FB51157A-E136-4C24-B78D-EAEFDC8C32C7}"/>
+											<Modifier Name="" ID="{FB51157A-E136-4C24-B78D-EAEFDC8C32C7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="350"/>
+													<Property Name="Min" Type="Real64" Value="-400"/>
+												</PropertyList>
+											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
@@ -2193,20 +2199,25 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+									<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Silence" ID="{A6FBD6CF-C16C-465F-9732-D7613A3DC66C}">
+								<AudioFileSource Name="Light switch" ID="{1D9BF374-6677-488F-9D43-BA790B7A4CBD}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.131899488599677"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Silence.wav</AudioFile>
+									<AudioFile>Light switch.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="389546834"/>
+										<MediaID ID="879709164"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Silence" ID="{A6FBD6CF-C16C-465F-9732-D7613A3DC66C}" Platform="Linked"/>
+								<ActiveSource Name="Light switch" ID="{1D9BF374-6677-488F-9D43-BA790B7A4CBD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Toilet flush" ID="{411D31F4-A307-4A5F-A5D5-2A5112714F57}" ShortID="311375389">
@@ -2238,11 +2249,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Silence" ID="{7FC5DF41-5D63-46F6-A7E1-393C12432400}">
+								<AudioFileSource Name="SFX - Toilet flush" ID="{ACF48DAE-5D28-4540-B282-172174B8E901}">
 									<Language>SFX</Language>
-									<AudioFile>Silence.wav</AudioFile>
+									<AudioFile>SFX - Toilet flush.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="389546834"/>
+										<MediaID ID="707198480"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -2321,7 +2332,7 @@
 								</ObjectList>
 							</ObjectLists>
 							<ActiveSourceList>
-								<ActiveSource Name="Silence" ID="{7FC5DF41-5D63-46F6-A7E1-393C12432400}" Platform="Linked"/>
+								<ActiveSource Name="SFX - Toilet flush" ID="{ACF48DAE-5D28-4540-B282-172174B8E901}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Piano - random" ID="{917DA541-DC09-4BFD-A852-A452E3DF3AAA}" ShortID="925646762">
@@ -2621,7 +2632,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Ambience - Wind" ID="{DA75F876-BC16-4DC4-A1BE-1A4918E57102}" ShortID="452171941">
+								<Sound Name="Ambience - Greenhouse" ID="{DA75F876-BC16-4DC4-A1BE-1A4918E57102}" ShortID="452171941">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -2631,20 +2642,20 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="Ambience Bus" ID="{185B51CB-54A5-4630-B64F-E52AEA6A79C0}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{557013B9-E14C-458E-9BD6-A5267F3F5AF5}">
+										<AudioFileSource Name="Ambience - Greenhouse" ID="{7F7BAAE7-B7BA-4594-AF65-AE593EDC335B}">
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Ambience - Greenhouse.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="629568929"/>
+												<MediaID ID="311666009"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{557013B9-E14C-458E-9BD6-A5267F3F5AF5}" Platform="Linked"/>
+										<ActiveSource Name="Ambience - Greenhouse" ID="{7F7BAAE7-B7BA-4594-AF65-AE593EDC335B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Music - Greenhouse" ID="{679AE99D-1296-43AB-94B5-FA7D2B87CAC2}" ShortID="176695637">
@@ -2726,7 +2737,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Ambience Abandoned Building" ID="{6FA8213F-E98B-481F-B794-51EFAF6FA09E}" ShortID="104976132">
+								<Sound Name="Ambience - Inside" ID="{6FA8213F-E98B-481F-B794-51EFAF6FA09E}" ShortID="104976132">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="15"/>
 										<Property Name="InitialDelay" Type="Real64">
@@ -2745,20 +2756,20 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="Ambience Bus" ID="{185B51CB-54A5-4630-B64F-E52AEA6A79C0}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{33A0DB4A-2AEA-4017-B554-124D9E295CAF}">
+										<AudioFileSource Name="Ambience - Inside" ID="{93FFE8AB-BB84-4849-93C7-A922BCBF690F}">
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Ambience - Inside.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="629568929"/>
+												<MediaID ID="737002136"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{33A0DB4A-2AEA-4017-B554-124D9E295CAF}" Platform="Linked"/>
+										<ActiveSource Name="Ambience - Inside" ID="{93FFE8AB-BB84-4849-93C7-A922BCBF690F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Music - Inside" ID="{5B8A7885-C976-4383-BBFB-739428D593D3}" ShortID="108071624">
@@ -2874,7 +2885,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Ambience - Graveyard" ID="{CF2495B7-2411-486E-86CE-C2EB91B7617D}" ShortID="602513298">
+								<Sound Name="Ambience - Outside" ID="{CF2495B7-2411-486E-86CE-C2EB91B7617D}" ShortID="602513298">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -2889,20 +2900,20 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="Ambience Bus" ID="{185B51CB-54A5-4630-B64F-E52AEA6A79C0}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{0B00CB04-0B40-48A8-97B5-4660D8D9341A}">
+										<AudioFileSource Name="Ambience - Outside" ID="{6F562F3F-87D7-4585-AF4A-0E31CC00C992}">
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Ambience - Outside.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="629568929"/>
+												<MediaID ID="906164414"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{0B00CB04-0B40-48A8-97B5-4660D8D9341A}" Platform="Linked"/>
+										<ActiveSource Name="Ambience - Outside" ID="{6F562F3F-87D7-4585-AF4A-0E31CC00C992}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Music - Outside" ID="{2E6B85CE-B672-43A8-9951-76C201ADECA8}" ShortID="759437949">
@@ -2970,12 +2981,15 @@
 						<RandomSequenceContainer Name="Thunder" ID="{583438D6-4E41-4B42-B194-253B0DEA4DB0}" ShortID="813298609">
 							<PropertyList>
 								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{DF390D4A-2FEB-4B8D-9010-47B4AC7F47F6}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -2984,13 +2998,14 @@
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{2156A0DA-2543-4D32-B86A-C5D13C84469A}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -3010,11 +3025,11 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+									<ObjectRef Name="Ambience Bus" ID="{185B51CB-54A5-4630-B64F-E52AEA6A79C0}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Placeholder Sound SFX" ID="{A7B70EFA-DAED-4D7A-BADB-24F2AD770C15}" ShortID="621138942">
+								<Sound Name="209139-EFX_SD_Low_Paper_Pass_04" ID="{7B6DD485-FC6A-4889-A8BC-B4C41231BEEE}" ShortID="177599689">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
@@ -3024,16 +3039,82 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{6BFE408B-7C27-44AC-909C-D6FFAD2AEFB5}">
+										<AudioFileSource Name="209139-EFX_SD_Low_Paper_Pass_04" ID="{2C35926A-B641-4ED1-88FF-ED567C3E9D10}">
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>209139-EFX_SD_Low_Paper_Pass_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="389546834"/>
+												<MediaID ID="210719892"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{6BFE408B-7C27-44AC-909C-D6FFAD2AEFB5}" Platform="Linked"/>
+										<ActiveSource Name="209139-EFX_SD_Low_Paper_Pass_04" ID="{2C35926A-B641-4ED1-88FF-ED567C3E9D10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="430252-thunder-summer-distant-rumble-subsonic-short-air-1" ID="{1804C947-2C06-4791-B2A6-96F7A5AC97E5}" ShortID="389751064">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="430252-thunder-summer-distant-rumble-subsonic-short-air-1" ID="{C7066157-B04F-41F8-B425-DEE3280E20F6}">
+											<Language>SFX</Language>
+											<AudioFile>430252-thunder-summer-distant-rumble-subsonic-short-air-1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="141136672"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="430252-thunder-summer-distant-rumble-subsonic-short-air-1" ID="{C7066157-B04F-41F8-B425-DEE3280E20F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="430285-thunder-summer-morning-distant-rumble-muted" ID="{2CA90D4F-68DA-4E98-91FE-BA2493494835}" ShortID="880463045">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="430285-thunder-summer-morning-distant-rumble-muted" ID="{217A1E45-8D8F-45B3-9417-906E9B6A4739}">
+											<Language>SFX</Language>
+											<AudioFile>430285-thunder-summer-morning-distant-rumble-muted.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="404772847"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="430285-thunder-summer-morning-distant-rumble-muted" ID="{217A1E45-8D8F-45B3-9417-906E9B6A4739}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="440844-Thunder-Distant-Rain-Crack-Slow-Big-Trim" ID="{D3D8BCAE-61FC-4B5D-B39A-8AA852B0C13C}" ShortID="105710539">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="440844-Thunder-Distant-Rain-Crack-Slow-Big-Trim" ID="{0E7A87C5-7B51-436D-BC6C-B0370AC5B74F}">
+											<Language>SFX</Language>
+											<AudioFile>440844-Thunder-Distant-Rain-Crack-Slow-Big-Trim.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="751631862"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="440844-Thunder-Distant-Rain-Crack-Slow-Big-Trim" ID="{0E7A87C5-7B51-436D-BC6C-B0370AC5B74F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -4176,7 +4257,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+									<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -4194,16 +4275,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{C62DA34C-5E62-40F9-96EC-938AD057B78D}">
+										<AudioFileSource Name="SFX - Furnace fire crackles" ID="{7BB562BF-C943-44DB-9E27-AF747F001F1C}">
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>SFX - Furnace fire crackles.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="629568929"/>
+												<MediaID ID="306360156"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{C62DA34C-5E62-40F9-96EC-938AD057B78D}" Platform="Linked"/>
+										<ActiveSource Name="SFX - Furnace fire crackles" ID="{7BB562BF-C943-44DB-9E27-AF747F001F1C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Furnace rumbles" ID="{3573A56D-4210-4B64-B817-0187CB936A18}" ShortID="865960040">
@@ -4220,16 +4301,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{9A65D427-223E-4444-8023-C3C28F9C281C}">
+										<AudioFileSource Name="SFX - Furnace rumbles" ID="{2C4E576B-B2D6-4DB6-BDCF-812340A0785D}">
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>SFX - Furnace rumbles.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="629568929"/>
+												<MediaID ID="438912827"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{9A65D427-223E-4444-8023-C3C28F9C281C}" Platform="Linked"/>
+										<ActiveSource Name="SFX - Furnace rumbles" ID="{2C4E576B-B2D6-4DB6-BDCF-812340A0785D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -4444,6 +4525,22 @@
 							<ChildrenList>
 								<Sound Name="Door - bulkhead open" ID="{1EAA911D-EAD7-407A-BD42-19DE03B88353}" ShortID="974395674">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-610</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F4D3591C-FB17-4FB5-981C-0206D9E5FCD6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4451,20 +4548,39 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{2C6CC9C9-5B09-4EA2-A6C3-686C95AF8ED9}">
+										<AudioFileSource Name="Door - Open &amp; close 1" ID="{B8A9179D-E428-4B46-AEA6-14411AF2F666}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.369935755841216"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.179968746084916"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.889845615526391"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Door - Open &amp; close 1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="389546834"/>
+												<MediaID ID="300664434"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Door - Open &amp; close 3" ID="{06B1CD1E-4E97-472D-9133-039B0A8CFACC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.172772400031433"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.350044394307162"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.639783857933065"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door - Open &amp; close 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="293724755"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{2C6CC9C9-5B09-4EA2-A6C3-686C95AF8ED9}" Platform="Linked"/>
+										<ActiveSource Name="Door - Open &amp; close 3" ID="{06B1CD1E-4E97-472D-9133-039B0A8CFACC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Door - bulkhead close" ID="{CC0F1E3A-5156-4A54-9D02-79D4A1B89A78}" ShortID="563195773">
@@ -4479,13 +4595,16 @@
 										</Property>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-610</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{A86B4CA4-0570-4E32-A95A-5ABA70C37C3F}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="152"/>
-															<Property Name="Min" Type="Real64" Value="-101"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -4501,15 +4620,21 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{836D162E-39A6-45D2-A7C5-BAA3923203CE}">
+										<AudioFileSource Name="Door - Open &amp; close 2" ID="{C511577D-1392-443F-97CD-43543DFCD080}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.3799340195126"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.47922212478014"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.3790660039779"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Door - Open &amp; close 2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="389546834"/>
+												<MediaID ID="627623250"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -4588,7 +4713,7 @@
 										</ObjectList>
 									</ObjectLists>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{836D162E-39A6-45D2-A7C5-BAA3923203CE}" Platform="Linked"/>
+										<ActiveSource Name="Door - Open &amp; close 2" ID="{C511577D-1392-443F-97CD-43543DFCD080}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -4610,20 +4735,26 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{56FFECDD-FC33-4310-9A02-3EFC99A0B0BA}">
+										<AudioFileSource Name="Door - Open &amp; close 1" ID="{231BE1B5-92AB-4FC6-9460-D3B78F595B1C}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.369935755841216"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.179968746084916"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.889845615526391"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Door - Open &amp; close 1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="389546834"/>
+												<MediaID ID="300664434"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{56FFECDD-FC33-4310-9A02-3EFC99A0B0BA}" Platform="Linked"/>
+										<ActiveSource Name="Door - Open &amp; close 1" ID="{231BE1B5-92AB-4FC6-9460-D3B78F595B1C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Door Heavy - close" ID="{8B0C8476-7924-4559-824D-1D6F9F653E5B}" ShortID="867463296">
@@ -4639,15 +4770,21 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{BBA33502-3D5E-4B08-B77A-6478C0F2503A}">
+										<AudioFileSource Name="Door - Open &amp; close 2" ID="{8FBE3A43-E1ED-4903-9991-0F7397B5DEEF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.3799340195126"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.47922212478014"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.3790660039779"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Door - Open &amp; close 2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="389546834"/>
+												<MediaID ID="627623250"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -4726,7 +4863,7 @@
 										</ObjectList>
 									</ObjectLists>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{BBA33502-3D5E-4B08-B77A-6478C0F2503A}" Platform="Linked"/>
+										<ActiveSource Name="Door - Open &amp; close 2" ID="{8FBE3A43-E1ED-4903-9991-0F7397B5DEEF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -4742,7 +4879,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4753,9 +4890,22 @@
 												<MediaID ID="389546834"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="Door - Light open" ID="{F1F14F1E-00BE-4135-B9DB-33B108F5F196}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.567581017812093"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0896180554440147"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.1314279531596"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door - Light open.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="966409346"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{D341D722-A36D-47CE-B32A-4962ED3D1213}" Platform="Linked"/>
+										<ActiveSource Name="Door - Light open" ID="{F1F14F1E-00BE-4135-B9DB-33B108F5F196}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Door - light close" ID="{795D572E-5F24-490E-A40E-379BA025706F}" ShortID="987803432">
@@ -4774,7 +4924,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -4783,6 +4933,19 @@
 											<AudioFile>Silence.wav</AudioFile>
 											<MediaIDList>
 												<MediaID ID="389546834"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Door - Light close" ID="{6E7BE5F4-DC62-4E56-B8A3-E4E5EBE11F0D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.67992666311431"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.18489758870755"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.49875876283924"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Door - Light close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="486432118"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -4861,7 +5024,7 @@
 										</ObjectList>
 									</ObjectLists>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{06D12CC2-2C1C-494F-946D-FD94C88E5DA4}" Platform="Linked"/>
+										<ActiveSource Name="Door - Light close" ID="{6E7BE5F4-DC62-4E56-B8A3-E4E5EBE11F0D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -4871,9 +5034,18 @@
 								<Sound Name="Door - medium open" ID="{ED6DDBDC-20BA-429E-850F-248EAB089934}" ShortID="553032165">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>400</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{C306579C-CDA3-47B1-BD76-796CE455E170}"/>
+													<Modifier Name="" ID="{C306579C-CDA3-47B1-BD76-796CE455E170}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
@@ -4884,26 +5056,48 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{9612F9D9-1FF9-4F4B-8F19-7694494A9E75}">
+										<AudioFileSource Name="Door - Open &amp; close 1" ID="{DF39EEE5-F47B-4A13-BD60-EDD56A249FCB}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.369935755841216"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.179968746084916"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.889845615526391"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Door - Open &amp; close 1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="389546834"/>
+												<MediaID ID="300664434"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{9612F9D9-1FF9-4F4B-8F19-7694494A9E75}" Platform="Linked"/>
+										<ActiveSource Name="Door - Open &amp; close 1" ID="{DF39EEE5-F47B-4A13-BD60-EDD56A249FCB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Door - medium close" ID="{1258157A-D831-4538-9335-4F4EC69DBBA7}" ShortID="171943696">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>400</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{878041AA-9556-4C65-A74D-BB1A8AEF022B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -4914,15 +5108,21 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+											<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Silence" ID="{D328FDBC-5450-42C8-AAA2-BCF6C7E5B97D}">
+										<AudioFileSource Name="Door - Open &amp; close 2" ID="{845B60E8-66E3-4F14-8260-71AC10A38628}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.3799340195126"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.47922212478014"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.3790660039779"/>
+											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>Silence.wav</AudioFile>
+											<AudioFile>Door - Open &amp; close 2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="389546834"/>
+												<MediaID ID="627623250"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -5001,7 +5201,7 @@
 										</ObjectList>
 									</ObjectLists>
 									<ActiveSourceList>
-										<ActiveSource Name="Silence" ID="{D328FDBC-5450-42C8-AAA2-BCF6C7E5B97D}" Platform="Linked"/>
+										<ActiveSource Name="Door - Open &amp; close 2" ID="{845B60E8-66E3-4F14-8260-71AC10A38628}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

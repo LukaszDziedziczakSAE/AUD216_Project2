@@ -279,7 +279,7 @@
     "Type": "User",
     "GUID": "{68FEB4CA-3C1B-4018-848B-070A85B21B05}",
     "Language": "SFX",
-    "Hash": "{CAA0F471-1CC1-59F9-553E-B90398FC0880}",
+    "Hash": "{786B3EA7-ED65-1C99-26BD-DB2E98AC2652}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -709,6 +709,14 @@
       "CachePath": "3F/{3FC9D644-34F5-5AC0-AB5C-2709065C0085}.wem"
      },
      {
+      "Id": "879709164",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Light switch.wav",
+      "CachePath": "2A/{2A7B6823-0B51-02BE-C25D-9235E44A0F54}.wem"
+     },
+     {
       "Id": "890570419",
       "Language": "SFX",
       "Streaming": "false",
@@ -746,7 +754,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jump - up.wav",
-      "CachePath": "CB/{CB358DF6-A0CB-C1AD-0F54-4994356E2126}.wem"
+      "CachePath": "CF/{CF019D97-78EA-C0C8-F803-ADD15DFAE9F4}.wem"
      },
      {
       "Id": "939609972",
@@ -810,7 +818,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jump - land.wav",
-      "CachePath": "C1/{C12C448C-469B-9B92-9804-040391FB583E}.wem"
+      "CachePath": "BF/{BF3D3407-F9B3-5848-F6C0-CA6A82D58599}.wem"
      },
      {
       "Id": "1040670168",
@@ -889,11 +897,11 @@
       "GUID": "{363AA09B-E08C-4480-B683-DAB0E5D86E3E}",
       "Color": "3",
       "DurationType": "OneShot",
-      "DurationMin": "0.15941043",
-      "DurationMax": "0.15941043",
+      "DurationMin": "0.28370833",
+      "DurationMax": "0.28370833",
       "MediaRefs": [
        {
-        "Id": "389546834"
+        "Id": "879709164"
        }
       ]
      },
@@ -1745,11 +1753,11 @@
       "GUID": "{F3E1D625-D9C8-4217-ACA4-73024FCB254C}",
       "Color": "3",
       "DurationType": "OneShot",
-      "DurationMin": "0.15941043",
-      "DurationMax": "0.15941043",
+      "DurationMin": "0.28370833",
+      "DurationMax": "0.28370833",
       "MediaRefs": [
        {
-        "Id": "389546834"
+        "Id": "879709164"
        }
       ]
      },
@@ -2185,6 +2193,6 @@
     ]
    }
   ],
-  "FileHash": "{45DBCE84-6885-094F-5E56-BD5DC842C4D2}"
+  "FileHash": "{18BF7522-8D1B-5F2C-46D5-181026010647}"
  }
 }

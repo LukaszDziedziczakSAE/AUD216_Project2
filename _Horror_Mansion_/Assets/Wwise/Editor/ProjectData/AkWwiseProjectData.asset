@@ -304,8 +304,8 @@ MonoBehaviour:
         guid: 9ba03a368ce08044b683dab0e5d86e3e
       Path: Events\Default Work Unit\Interactables\Pickup
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.28370833
+      minDuration: 0.28370833
     - name: Play_Crows_Random_Container
       guid: 1067a2d654b7c740a8d208d9e4dcb5f5
       id: 820444688
@@ -730,8 +730,8 @@ MonoBehaviour:
         guid: 25d6e1f3c8d91742aca473024fcb254c
       Path: Events\Default Work Unit\Interactables\Play_Light_switch
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.28370833
+      minDuration: 0.28370833
     - name: Play_Music___Indoor_Shrill
       guid: 033c629359995c4a88ac197f3da545df
       id: 1553787382
