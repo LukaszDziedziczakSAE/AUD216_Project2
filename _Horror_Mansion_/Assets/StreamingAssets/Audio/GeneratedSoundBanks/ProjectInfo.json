@@ -3,7 +3,7 @@
   "Project": {
    "Name": "Horror_WwiseProject",
    "GUID": "{E56F8784-2901-4F3C-9774-888719A290DF}",
-   "Generator": "2024.1.1.8691"
+   "Generator": "2024.1.3.8749"
   },
   "CacheRoot": "../../../../Horror_Mansion_WwiseProject/.cache",
   "Platforms": [
@@ -31,6 +31,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{5A96112B-82B5-1E67-B53E-3FDA2234EC77}"
+  "FileHash": "{C424A000-35AB-1765-4014-AF8E33529140}"
  }
 }

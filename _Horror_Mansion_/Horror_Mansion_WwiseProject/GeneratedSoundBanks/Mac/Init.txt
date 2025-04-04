@@ -21,7 +21,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
 	2247540952	Footsteps Bus			\Default Work Unit\Master Audio Bus\Footsteps Bus	
 	3127962312	Music Bus			\Default Work Unit\Master Audio Bus\Music Bus	
-	3600729941	UI Bus			\Default Work Unit\Master Audio Bus\UI Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	4202237879	Ambience Bus			\Default Work Unit\Master Audio Bus\Ambience Bus	
 

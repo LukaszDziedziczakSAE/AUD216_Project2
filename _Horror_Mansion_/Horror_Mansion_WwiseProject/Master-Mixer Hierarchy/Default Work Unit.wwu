@@ -217,7 +217,6 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
-						<Bus Name="UI Bus" ID="{1DA87170-D366-49E5-9781-365A34EA64D5}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
