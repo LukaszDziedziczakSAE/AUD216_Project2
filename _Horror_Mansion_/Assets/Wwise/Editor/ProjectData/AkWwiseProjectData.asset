@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 33b45dc497d7674e951e85bd25c4d08a
     GuidInternal: 
-    m_lastTime: -8584596943666418952
+    m_lastTime: -8584578657174915164
     List:
     - name: Ambience Bus
       guid: cb515b18a5543046b64fe52aea6a79c0
@@ -304,8 +304,8 @@ MonoBehaviour:
         guid: 9ba03a368ce08044b683dab0e5d86e3e
       Path: Events\Default Work Unit\Interactables\Pickup
       maxAttenuation: 0
-      maxDuration: 0.28370833
-      minDuration: 0.28370833
+      maxDuration: 0.3574501
+      minDuration: 0.23177773
     - name: Play_Crows_Random_Container
       guid: 1067a2d654b7c740a8d208d9e4dcb5f5
       id: 820444688
@@ -344,8 +344,8 @@ MonoBehaviour:
         guid: 2126d7e69a7328499f532c99ceab9b4e
       Path: Events\Default Work Unit\Doors\Play_door_basement_bulkhead_close
       maxAttenuation: 40
-      maxDuration: 0.16898707
-      minDuration: 0.14601123
+      maxDuration: 1.3957881
+      minDuration: 1.243506
     - name: Play_door_basement_bulkhead_open
       guid: e2807cdd796286409e9e7aff708788a0
       id: 3610768546
@@ -364,8 +364,8 @@ MonoBehaviour:
         guid: e2807cdd796286409e9e7aff708788a0
       Path: Events\Default Work Unit\Doors\Play_door_basement_bulkhead_open
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.44942784
+      minDuration: 0.4003947
     - name: Play_door_heavy_close
       guid: 552004f0ff8f5f499b9b531b35eeeaa7
       id: 1205379775
@@ -384,8 +384,8 @@ MonoBehaviour:
         guid: 552004f0ff8f5f499b9b531b35eeeaa7
       Path: Events\Default Work Unit\Doors\Play_door_heavy_close
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.8998439
+      minDuration: 0.8998439
     - name: Play_door_heavy_open
       guid: 9eee7274a806c641a04a324cfe2a7f5c
       id: 79903961
@@ -404,8 +404,8 @@ MonoBehaviour:
         guid: 9eee7274a806c641a04a324cfe2a7f5c
       Path: Events\Default Work Unit\Doors\Play_door_heavy_open
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.7098769
+      minDuration: 0.7098769
     - name: Play_door_light_close
       guid: 190349bba92f2a40880a6a183b970788
       id: 106752682
@@ -424,8 +424,8 @@ MonoBehaviour:
         guid: 190349bba92f2a40880a6a183b970788
       Path: Events\Default Work Unit\Doors\Play_door_light_close
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 2.3138611
+      minDuration: 2.3138611
     - name: Play_door_light_open
       guid: e9d22f273e619a418cf9ed3d06b3a35b
       id: 2289407054
@@ -444,8 +444,8 @@ MonoBehaviour:
         guid: e9d22f273e619a418cf9ed3d06b3a35b
       Path: Events\Default Work Unit\Doors\Play_door_light_open
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 1.0418099
+      minDuration: 1.0418099
     - name: Play_door_medium_close
       guid: 3076bd91ae4ad14396604f028d3d3c46
       id: 2277063673
@@ -464,8 +464,8 @@ MonoBehaviour:
         guid: 3076bd91ae4ad14396604f028d3d3c46
       Path: Events\Default Work Unit\Doors\Play_door_medium_close
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.77884775
+      minDuration: 0.6938745
     - name: Play_door_medium_open
       guid: bed89cbf3f055e4f96c589070b0379da
       id: 3201265835
@@ -484,8 +484,8 @@ MonoBehaviour:
         guid: bed89cbf3f055e4f96c589070b0379da
       Path: Events\Default Work Unit\Doors\Play_door_medium_open
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.6144244
+      minDuration: 0.5473899
     - name: Play_Footstep
       guid: b8637a0393929d44a914ef235a929eb8
       id: 1602358412
@@ -730,8 +730,8 @@ MonoBehaviour:
         guid: 25d6e1f3c8d91742aca473024fcb254c
       Path: Events\Default Work Unit\Interactables\Play_Light_switch
       maxAttenuation: 0
-      maxDuration: 0.28370833
-      minDuration: 0.28370833
+      maxDuration: 0.3574501
+      minDuration: 0.23177773
     - name: Play_Music___Indoor_Shrill
       guid: 033c629359995c4a88ac197f3da545df
       id: 1553787382
@@ -933,8 +933,8 @@ MonoBehaviour:
         guid: 294680be1ad36f47a8f5700d0e5eec98
       Path: Events\Default Work Unit\Interactables\Play_Toilet_flush
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 9.718667
+      minDuration: 9.718667
     - name: Play_UI_Deselect
       guid: 0d53bc6559666a41bfed6968fb7ef73b
       id: 2036602390

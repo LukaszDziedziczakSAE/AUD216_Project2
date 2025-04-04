@@ -287,7 +287,7 @@
     "Type": "User",
     "GUID": "{68FEB4CA-3C1B-4018-848B-070A85B21B05}",
     "Language": "SFX",
-    "Hash": "{E2603C17-4683-8531-8FEC-66D5E9264570}",
+    "Hash": "{C00CE844-646A-4546-ED39-C46BA751A7F5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -458,7 +458,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door - Open & close 3.wav",
-      "CachePath": "BB/{BB79C417-0037-64EB-AE68-316BDBA9DB4B}.wem"
+      "CachePath": "E4/{E4119138-0DA8-6DA3-6E1E-862FBE6E92F1}.wem"
      },
      {
       "Id": "297401236",
@@ -474,7 +474,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door - Open & close 1.wav",
-      "CachePath": "EA/{EAEB1490-A1A2-2F6B-87D8-A5F1C323B9E2}.wem"
+      "CachePath": "85/{85E5C301-6D48-6224-F18C-FCAC9969C3B6}.wem"
      },
      {
       "Id": "301112765",
@@ -642,7 +642,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door - Light close.wav",
-      "CachePath": "7B/{7B257ADA-D9AF-764F-286C-1AA424509969}.wem"
+      "CachePath": "8C/{8CB29904-DB6F-5062-ABD6-DB80F655F476}.wem"
      },
      {
       "Id": "489815893",
@@ -690,7 +690,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door - Open & close 2.wav",
-      "CachePath": "5E/{5E125090-4613-E2FD-70FA-F55F756AC3B0}.wem"
+      "CachePath": "74/{7484FF7E-2F0C-48CD-8CE5-75CFC16B80FD}.wem"
      },
      {
       "Id": "629568929",
@@ -826,7 +826,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Light switch.wav",
-      "CachePath": "14/{14EF3C93-631B-4327-EAFA-4636A7B7262B}.wem"
+      "CachePath": "8F/{8F7B4B41-5B6C-EEFD-33BB-C8C6E82882E2}.wem"
      },
      {
       "Id": "890570419",
@@ -898,7 +898,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door - Light open.wav",
-      "CachePath": "D7/{D7339171-D5B9-EA4D-65BD-74C8BAE7F213}.wem"
+      "CachePath": "68/{683679EC-ACA9-48D5-6E89-F46846B7DC8E}.wem"
      },
      {
       "Id": "974697688",
@@ -2336,6 +2336,6 @@
     ]
    }
   ],
-  "FileHash": "{1B8DDCA2-42B2-FE12-3509-B253BDE190C3}"
+  "FileHash": "{99A75730-9233-F547-BE03-58CC3298C98A}"
  }
 }
