@@ -21,14 +21,19 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
 	2247540952	Footsteps Bus			\Default Work Unit\Master Audio Bus\Footsteps Bus	
 	3127962312	Music Bus			\Default Work Unit\Master Audio Bus\Music Bus	
+	3600729941	UI Bus			\Default Work Unit\Master Audio Bus\UI Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	4202237879	Ambience Bus			\Default Work Unit\Master Audio Bus\Ambience Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	2212044742	Aux_Reverb_DEMO			\Default Work Unit\Master Audio Bus\Aux_Reverb_DEMO	
+	376731932	Aux_Reverb_Greenhouse			\Default Work Unit\Master Audio Bus\Aux_Reverb_Greenhouse	
+	1807606365	Aux_Reverb_Lobby			\Default Work Unit\Master Audio Bus\Aux_Reverb_Lobby	
+	3023885353	Aux_Reverb_Kitchen			\Default Work Unit\Master Audio Bus\Aux_Reverb_Kitchen	
+	3842908192	Aux_Reverb_Basement			\Default Work Unit\Master Audio Bus\Aux_Reverb_Basement	
 
 Effect plug-ins	ID	Name	Type				Notes
-	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	3451596814	Hall_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 33b45dc497d7674e951e85bd25c4d08a
     GuidInternal: 
-    m_lastTime: -8584578657174915164
+    m_lastTime: -8584573407603236974
     List:
     - name: Ambience Bus
       guid: cb515b18a5543046b64fe52aea6a79c0
@@ -57,9 +57,9 @@ MonoBehaviour:
         ObjectType: 2
         guid: cb515b18a5543046b64fe52aea6a79c0
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambience Bus
-    - name: Aux_Reverb_DEMO
-      guid: e2a54d58769276478017a56c3dfcdd77
-      id: 2212044742
+    - name: Aux_Reverb_Basement
+      guid: dc3da86f7c1995439addf203b33356c4
+      id: 3842908192
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -70,10 +70,61 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Aux_Reverb_DEMO
+      - ElementName: Aux_Reverb_Basement
         ObjectType: 1
-        guid: e2a54d58769276478017a56c3dfcdd77
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Aux_Reverb_DEMO
+        guid: dc3da86f7c1995439addf203b33356c4
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Aux_Reverb_Basement
+    - name: Aux_Reverb_Greenhouse
+      guid: de6f2bccb350bb4b8e6b7db68eac850d
+      id: 376731932
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33b45dc497d7674e951e85bd25c4d08a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Aux_Reverb_Greenhouse
+        ObjectType: 1
+        guid: de6f2bccb350bb4b8e6b7db68eac850d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Aux_Reverb_Greenhouse
+    - name: Aux_Reverb_Kitchen
+      guid: aac1c703745d934495e028a769d8fa7d
+      id: 3023885353
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33b45dc497d7674e951e85bd25c4d08a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Aux_Reverb_Kitchen
+        ObjectType: 1
+        guid: aac1c703745d934495e028a769d8fa7d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Aux_Reverb_Kitchen
+    - name: Aux_Reverb_Lobby
+      guid: 61c5a26b27007d4ca72d60bb792e8684
+      id: 1807606365
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33b45dc497d7674e951e85bd25c4d08a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Aux_Reverb_Lobby
+        ObjectType: 1
+        guid: 61c5a26b27007d4ca72d60bb792e8684
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Aux_Reverb_Lobby
     - name: Footsteps Bus
       guid: 1934bf7b012a894185ba90bf54672d01
       id: 2247540952
@@ -139,6 +190,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 2efd895fa5cb21458fd96ef560c1ab0a
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus
+    - name: UI Bus
+      guid: 488e7f3941313c43abd862f89023e3e3
+      id: 3600729941
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33b45dc497d7674e951e85bd25c4d08a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: UI Bus
+        ObjectType: 2
+        guid: 488e7f3941313c43abd862f89023e3e3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI Bus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -179,7 +247,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b94152b09dca0742a86dd5712aef856b
     GuidInternal: 
-    m_lastTime: -8584596943666639937
+    m_lastTime: -8584573447959075607
     List:
     - name: Ambiences & Music
       guid: 4e39e7c42af38f44b391efbc7e2b04fc
@@ -324,8 +392,8 @@ MonoBehaviour:
         guid: 1067a2d654b7c740a8d208d9e4dcb5f5
       Path: Events\Default Work Unit\Wildlife\Play_Crows_Random_Container
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.5577393
+      minDuration: 0.31603584
     - name: Play_door_basement_bulkhead_close
       guid: 2126d7e69a7328499f532c99ceab9b4e
       id: 1751998966
@@ -523,7 +591,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 27f31684b50dfc46b4c24ca84482b068
       Path: Events\Default Work Unit\SFX General\Play_Fridge
-      maxAttenuation: 40
+      maxAttenuation: 15
       maxDuration: 0
       minDuration: 0
     - name: Play_Furnace_fire_crackles
@@ -584,8 +652,8 @@ MonoBehaviour:
         guid: 5ab3be2cb5ec9e47b64ab5638a5bae6e
       Path: Events\Default Work Unit\Interactables\Play_Gramophone
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 166.16112
+      minDuration: 166.16112
     - name: Play_Grandfather_Clock_Ticking
       guid: b09951a14bf54144b224b4258866278a
       id: 3529309445
@@ -770,8 +838,8 @@ MonoBehaviour:
         guid: 53c9affbb203d747b0af5f212d15da13
       Path: Events\Default Work Unit\Interactables\Play_Objective_completed
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 1
+      minDuration: 1
     - name: Play_Outside_Ambience_and_Music_Blend_Container
       guid: 987a2a9fcc076a47a44e31ae5c6d90c7
       id: 1513891888
@@ -810,8 +878,8 @@ MonoBehaviour:
         guid: 70236c52f8bff54e9cc0024299af2c21
       Path: Events\Default Work Unit\Interactables\Play_Piano
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 6.5065227
+      minDuration: 5.4089837
     - name: Play_Small_clock
       guid: 751e89c23a2a3c468a8715354cb426d2
       id: 813190480
@@ -853,8 +921,8 @@ MonoBehaviour:
         guid: d0bbef9e4e2d6b48a724554a6e55bb05
       Path: Events\Default Work Unit\Interactables\Play_Stinger
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 12.390864
+      minDuration: 12.390864
     - name: Play_Telephone_pickup
       guid: a43ec14d3194194793735518bd6acf08
       id: 2735023657
@@ -873,8 +941,8 @@ MonoBehaviour:
         guid: a43ec14d3194194793735518bd6acf08
       Path: Events\Default Work Unit\Phone\Play_Telephone_pickup
       maxAttenuation: 40
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 19.527983
+      minDuration: 7.67768
     - name: Play_Telephone_Ring
       guid: c2da90826cfd3d4b9077cc1e22880401
       id: 4029451095
@@ -893,8 +961,8 @@ MonoBehaviour:
         guid: c2da90826cfd3d4b9077cc1e22880401
       Path: Events\Default Work Unit\Phone\Play_Telephone_Ring
       maxAttenuation: 40
-      maxDuration: 1.5941044
-      minDuration: 1.5941044
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Thunder
       guid: 276596d6aea48346acf9c5e7f913e883
       id: 3870462868
@@ -932,9 +1000,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 294680be1ad36f47a8f5700d0e5eec98
       Path: Events\Default Work Unit\Interactables\Play_Toilet_flush
-      maxAttenuation: 40
-      maxDuration: 9.718667
-      minDuration: 9.718667
+      maxAttenuation: 15
+      maxDuration: 9.533956
+      minDuration: 9.533956
     - name: Play_UI_Deselect
       guid: 0d53bc6559666a41bfed6968fb7ef73b
       id: 2036602390
@@ -953,8 +1021,8 @@ MonoBehaviour:
         guid: 0d53bc6559666a41bfed6968fb7ef73b
       Path: Events\Default Work Unit\User Interface\Play_UI_Deselect
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 2
+      minDuration: 2
     - name: Play_UI_Select
       guid: f8e149fd7b11044c819b8690b62e2fd3
       id: 3308548503
@@ -973,8 +1041,8 @@ MonoBehaviour:
         guid: f8e149fd7b11044c819b8690b62e2fd3
       Path: Events\Default Work Unit\User Interface\Play_UI_Select
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 1.4860729
+      minDuration: 1.4860729
     - name: Play_Water_drip_sequence
       guid: 5f3975f18da83244af47bcc3dc40ec1d
       id: 1486568025
@@ -992,7 +1060,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5f3975f18da83244af47bcc3dc40ec1d
       Path: Events\Default Work Unit\SFX General\Play_Water_drip_sequence
-      maxAttenuation: 40
+      maxAttenuation: 15
       maxDuration: 0
       minDuration: 0
     - name: Set_Surface
@@ -1547,7 +1615,7 @@ MonoBehaviour:
     m_lastTime: -8584596943666268819
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 02000000030000000400000005000000060000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

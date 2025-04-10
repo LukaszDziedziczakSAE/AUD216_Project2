@@ -259,7 +259,7 @@
 								<Action Name="" ID="{1C63CB17-93E5-480E-9F5C-699012F77F39}" ShortID="933165207">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Music - Inside" ID="{5B8A7885-C976-4383-BBFB-739428D593D3}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+											<ObjectRef Name="Shrill - Inside" ID="{5B8A7885-C976-4383-BBFB-739428D593D3}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -311,7 +311,7 @@
 								<Action Name="" ID="{D8276316-9D02-44AC-9981-7C5E97CFE0A0}" ShortID="462226066">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Telephone answer" ID="{B8B9BD3C-AD13-4FFC-9422-4863F78D6A5A}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+											<ObjectRef Name="Telephone answer lines" ID="{196B3ACC-AEE6-44CD-8A36-6F2A70A7EC58}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -72,3 +72,7 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+.bnk
+_Horror_Mansion_/Horror_Mansion_WwiseProject/GeneratedSoundBanks/Windows/Main.bnk
+_Horror_Mansion_/Horror_Mansion_WwiseProject/GeneratedSoundBanks/Mac/Main.bnk
