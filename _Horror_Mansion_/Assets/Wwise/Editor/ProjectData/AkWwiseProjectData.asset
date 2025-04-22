@@ -219,7 +219,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: dcb4d7198b398648bfe43bd47ff8023e
     GuidInternal: 
-    m_lastTime: -8584596943666298847
+    m_lastTime: -8584573384980481872
     List:
     - name: Main
       guid: cab4fe681b3c1840848b070a85b21b05
@@ -247,7 +247,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b94152b09dca0742a86dd5712aef856b
     GuidInternal: 
-    m_lastTime: -8584573447959075607
+    m_lastTime: -8584563028262910686
     List:
     - name: Ambiences & Music
       guid: 4e39e7c42af38f44b391efbc7e2b04fc
@@ -880,6 +880,26 @@ MonoBehaviour:
       maxAttenuation: 40
       maxDuration: 6.5065227
       minDuration: 5.4089837
+    - name: Play_Player_Dialog_Random
+      guid: b00c6a68380ce34aabf4e3b0031f2560
+      id: 2752535182
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b94152b09dca0742a86dd5712aef856b
+      - ElementName: SFX General
+        ObjectType: 4
+        guid: 449bcd71d67da846900c4cad615eee70
+      - ElementName: Play_Player_Dialog_Random
+        ObjectType: 3
+        guid: b00c6a68380ce34aabf4e3b0031f2560
+      Path: Events\Default Work Unit\SFX General\Play_Player_Dialog_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Small_clock
       guid: 751e89c23a2a3c468a8715354cb426d2
       id: 813190480
@@ -1615,7 +1635,7 @@ MonoBehaviour:
     m_lastTime: -8584596943666268819
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 02000000030000000400000005000000060000000e000000
+  ExpandedWaapiItemIds: 02000000030000000400000005000000060000000c0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

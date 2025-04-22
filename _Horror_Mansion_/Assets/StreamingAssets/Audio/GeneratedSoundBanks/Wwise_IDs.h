@@ -39,6 +39,7 @@ namespace AK
         static const AkUniqueID PLAY_OBJECTIVE_COMPLETED = 2316448637U;
         static const AkUniqueID PLAY_OUTSIDE_AMBIENCE_AND_MUSIC_BLEND_CONTAINER = 1513891888U;
         static const AkUniqueID PLAY_PIANO = 1479974693U;
+        static const AkUniqueID PLAY_PLAYER_DIALOG_RANDOM = 2752535182U;
         static const AkUniqueID PLAY_SMALL_CLOCK = 813190480U;
         static const AkUniqueID PLAY_STINGER = 754369548U;
         static const AkUniqueID PLAY_TELEPHONE_PICKUP = 2735023657U;

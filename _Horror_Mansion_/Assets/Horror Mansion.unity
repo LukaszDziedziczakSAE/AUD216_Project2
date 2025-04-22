@@ -12642,7 +12642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &85343306
 Transform:
   m_ObjectHideFlags: 0
@@ -199342,7 +199342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3926b5299d794344a6b9a99d3ddb8b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7f422d6
+  triggerList: f7e1664c
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
@@ -199385,7 +199385,7 @@ MonoBehaviour:
   usePositionOffsetData: 0
   m_positionOffsetData:
     KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
+    positionOffset: {x: 8.371536, y: 0.0000003107109, z: -0.000029828247}
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
@@ -199398,8 +199398,8 @@ Transform:
   m_GameObject: {fileID: 1245997026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.19, y: -0.76299, z: -42.704}
-  m_LocalScale: {x: 0.21960843, y: 0.76733255, z: 0.76733255}
+  m_LocalPosition: {x: -10.72, y: -0.76299, z: -42.7}
+  m_LocalScale: {x: 16.847649, y: 2, z: 8.8848}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 545417319}
@@ -376022,6 +376022,7 @@ GameObject:
   - component: {fileID: 8653353885895030047}
   - component: {fileID: 8653353885895030048}
   - component: {fileID: 8653353885895030049}
+  - component: {fileID: 8653353885895030050}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -379265,6 +379266,40 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &8653353885895030050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284087189319469246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3926b5299d794344a6b9a99d3ddb8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d18e24d666c60274cad86ccfc29f8091, type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+  MultiPositionType: 1
+  multiPositionTypeLabel: 0
+  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
+  LargeModePositions: []
+  multiPositionArray: []
 --- !u!4 &8939399228005586440
 Transform:
   m_ObjectHideFlags: 0

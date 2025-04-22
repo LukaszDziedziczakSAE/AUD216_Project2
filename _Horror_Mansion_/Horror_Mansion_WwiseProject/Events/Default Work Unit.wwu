@@ -524,6 +524,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Player_Dialog_Random" ID="{686A0CB0-0C38-4AE3-ABF4-E3B0031F2560}">
+							<ChildrenList>
+								<Action Name="" ID="{C584A393-8DBF-4D08-9DA3-22F8A79B4D05}" ShortID="144090997">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player Dialog - Random" ID="{3C8D020A-178F-4DA0-98C4-D84B97320B49}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

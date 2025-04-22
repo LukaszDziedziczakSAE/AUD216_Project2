@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{956D7359-0214-5F6A-61D6-F4BB306BB3F7}",
+    "Hash": "{1F0BCCC8-96D6-BA23-9F13-EF2661CC13BF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -344,7 +344,7 @@
     "Type": "User",
     "GUID": "{68FEB4CA-3C1B-4018-848B-070A85B21B05}",
     "Language": "SFX",
-    "Hash": "{AC9BCB7B-8ADD-39A7-8233-197484B3877F}",
+    "Hash": "{E010E4D4-B4EA-68E3-506D-272E77079FDA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -483,7 +483,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1188355.audio-BIRDCrow-Raven_Croak_04-ASD 1.wav",
-      "CachePath": "36/{3651EEF4-DB87-91B6-431B-4F4FA66E96E1}.wem"
+      "CachePath": "33/{3392383C-6464-0457-7065-87F06A105688}.wem"
      },
      {
       "Id": "199556179",
@@ -491,7 +491,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_DesparateSurvivorPhone_01.wav",
-      "CachePath": "C2/{C2DC98CA-B83D-4D84-4763-058A67816FA0}.wem"
+      "CachePath": "48/{48ED02BA-DB60-D649-D40E-399A26A1E839}.wem"
      },
      {
       "Id": "202343186",
@@ -547,7 +547,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1188355.audio-BIRDCrow-Raven_Croak_04-ASD 2.wav",
-      "CachePath": "19/{190005E6-5ABB-6FC1-DCE9-98D6FC78268E}.wem"
+      "CachePath": "2D/{2D78C24F-72E6-981B-5278-20B49189725D}.wem"
      },
      {
       "Id": "265277599",
@@ -603,7 +603,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "1188355.audio-BIRDCrow-Raven_Croak_04-ASD 3.wav",
-      "CachePath": "35/{35A21B9F-D89A-1AC8-2DA2-D45414C6E46D}.wem"
+      "CachePath": "0B/{0B61D6DF-0C52-11A4-73FB-3F9852CF4BE6}.wem"
      },
      {
       "Id": "300664434",
@@ -636,6 +636,22 @@
       "Location": "Memory",
       "ShortName": "Ambience - Greenhouse.wav",
       "CachePath": "22/{22A5661C-3F29-0A7A-92DE-C1B0956AD81D}.wem"
+     },
+     {
+      "Id": "312635453",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_13.wav",
+      "CachePath": "27/{2744C830-2AF4-08AA-4F5E-21981EDCB954}.wem"
+     },
+     {
+      "Id": "322399411",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_03.wav",
+      "CachePath": "B8/{B8E85691-6899-DA94-E408-C1688FBEECCD}.wem"
      },
      {
       "Id": "322434705",
@@ -702,6 +718,14 @@
       "CachePath": "AF/{AFFA0EC0-B06B-EBE7-0DF8-EF4D76AF8C14}.wem"
      },
      {
+      "Id": "424607810",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_02.wav",
+      "CachePath": "00/{004F9961-C0AA-8F72-7151-DBD52BFB9F45}.wem"
+     },
+     {
       "Id": "438912827",
       "Language": "SFX",
       "Streaming": "false",
@@ -763,7 +787,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "475865-Little_Water_Drip-WE_01.wav",
-      "CachePath": "2B/{2B103BAB-49EA-0D12-59CF-32B536DF1D41}.wem"
+      "CachePath": "74/{7426CE42-4251-CB62-DC73-CD6DEA9F62D9}.wem"
      },
      {
       "Id": "486432118",
@@ -838,6 +862,14 @@
       "CachePath": "F0/{F09DEE6A-13A4-54C8-4244-3BD5D0A8B02A}.wem"
      },
      {
+      "Id": "577295907",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_11.wav",
+      "CachePath": "66/{6675F47C-E5F9-2DDE-BCDB-E0356798EB1E}.wem"
+     },
+     {
       "Id": "603907209",
       "Language": "SFX",
       "Streaming": "false",
@@ -891,7 +923,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_LocalHistorianPhone_01.wav",
-      "CachePath": "3C/{3C8EE06B-BE65-0446-C391-BEF4F811D635}.wem"
+      "CachePath": "BD/{BD135E8F-A236-EBAE-890E-56F40399A0B6}.wem"
      },
      {
       "Id": "651260321",
@@ -899,7 +931,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_FormerSecurityGuardPhone_01.wav",
-      "CachePath": "F1/{F1EC4875-1E19-1BBB-B2B4-94F04A4682E5}.wem"
+      "CachePath": "EA/{EA152261-D0E7-C599-C13C-7C6A7C26E528}.wem"
      },
      {
       "Id": "676892353",
@@ -947,7 +979,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX - Toilet flush.wav",
-      "CachePath": "F1/{F19FE280-30BB-B86A-72C9-656A1CBC75B7}.wem"
+      "CachePath": "C4/{C4E8172A-41BA-B9F8-A508-D7B4A3BEF7BA}.wem"
+     },
+     {
+      "Id": "710920432",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_06.wav",
+      "CachePath": "6C/{6C589FAA-7CA7-A7EE-767C-3E018533B7C3}.wem"
+     },
+     {
+      "Id": "727402005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_04.wav",
+      "CachePath": "B1/{B1A26CAC-B4D5-C05A-852A-5B3395B3F723}.wem"
      },
      {
       "Id": "729967834",
@@ -990,6 +1038,14 @@
       "CachePath": "E7/{E7701B1E-57A5-75C4-B3CE-8C45554EE1B6}.wem"
      },
      {
+      "Id": "763384185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_07.wav",
+      "CachePath": "67/{67C041D8-F43A-5D72-93A3-B360B48FC7C5}.wem"
+     },
+     {
       "Id": "773333620",
       "Language": "SFX",
       "Streaming": "false",
@@ -998,12 +1054,28 @@
       "CachePath": "31/{31D953F8-22B1-1441-78C6-B161510D2C32}.wem"
      },
      {
+      "Id": "775660912",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_12.wav",
+      "CachePath": "3A/{3A8929F4-DA7A-FB52-1FFB-ACA16A791324}.wem"
+     },
+     {
       "Id": "781310447",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "footstep-wood10.wav",
       "CachePath": "A9/{A9A92ABC-A91F-41BA-75C4-F2634A11452E}.wem"
+     },
+     {
+      "Id": "784451551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_05.wav",
+      "CachePath": "C8/{C82910C6-D4A8-BC38-9E63-4C4D9057F192}.wem"
      },
      {
       "Id": "788218827",
@@ -1044,6 +1116,14 @@
       "Location": "Memory",
       "ShortName": "footstep-rock4.wav",
       "CachePath": "D8/{D87E809E-DD86-03D9-8F68-059BC439530D}.wem"
+     },
+     {
+      "Id": "831423843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_01.wav",
+      "CachePath": "6C/{6C926C64-E90D-F8A8-65A7-EEB0B43EB89E}.wem"
      },
      {
       "Id": "836495611",
@@ -1102,6 +1182,14 @@
       "CachePath": "0F/{0F24AEEF-9993-854C-51DD-6CA057895F06}.wem"
      },
      {
+      "Id": "908951386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_09.wav",
+      "CachePath": "05/{056E81F9-9BB6-4291-49C8-7B89350FEB07}.wem"
+     },
+     {
       "Id": "914140394",
       "Language": "SFX",
       "Streaming": "false",
@@ -1142,6 +1230,14 @@
       "CachePath": "92/{9273EDCF-7EF5-206E-2D65-C06178B6A480}.wem"
      },
      {
+      "Id": "940588169",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "VO_Player_10.wav",
+      "CachePath": "F0/{F0D3AA34-7EB5-4A5A-F3ED-5F77C71E229C}.wem"
+     },
+     {
       "Id": "943642806",
       "Language": "SFX",
       "Streaming": "false",
@@ -1155,7 +1251,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_MysteryCallerPhone_01.wav",
-      "CachePath": "43/{435D75AC-3F9A-25B2-030D-53C635BD220F}.wem"
+      "CachePath": "1A/{1AE45928-12C7-73D9-D66A-F65196C82EE9}.wem"
      },
      {
       "Id": "966409346",
@@ -2283,6 +2379,52 @@
       ]
      },
      {
+      "Id": "2752535182",
+      "Name": "Play_Player_Dialog_Random",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Play_Player_Dialog_Random",
+      "GUID": "{686A0CB0-0C38-4AE3-ABF4-E3B0031F2560}",
+      "Color": "9",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "312635453"
+       },
+       {
+        "Id": "322399411"
+       },
+       {
+        "Id": "424607810"
+       },
+       {
+        "Id": "577295907"
+       },
+       {
+        "Id": "710920432"
+       },
+       {
+        "Id": "727402005"
+       },
+       {
+        "Id": "763384185"
+       },
+       {
+        "Id": "775660912"
+       },
+       {
+        "Id": "784451551"
+       },
+       {
+        "Id": "831423843"
+       },
+       {
+        "Id": "908951386"
+       },
+       {
+        "Id": "940588169"
+       }
+      ]
+     },
+     {
       "Id": "813190480",
       "Name": "Play_Small_clock",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Clocks\\Play_Small_clock",
@@ -2740,6 +2882,6 @@
     ]
    }
   ],
-  "FileHash": "{6D1715E4-7849-423B-E1A0-A20022695F20}"
+  "FileHash": "{D308D348-53A0-8266-F867-61850D3B3288}"
  }
 }
