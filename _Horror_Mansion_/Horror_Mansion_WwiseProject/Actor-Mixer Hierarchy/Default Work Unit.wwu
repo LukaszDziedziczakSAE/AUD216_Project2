@@ -1975,16 +1975,21 @@
 										<MediaID ID="389546834"/>
 									</MediaIDList>
 								</AudioFileSource>
-								<AudioFileSource Name="183748-Sinematic_-Mega_Horns-18" ID="{102D79E0-DF3F-4C9A-8A57-0A6E7F8EB9BE}">
+								<AudioFileSource Name="Transition Horror Metal Resonant Groan" ID="{7B31CB55-8BDA-4E34-8166-64AB609443EA}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0378327849118606"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.348602089545001"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>183748-Sinematic_-Mega_Horns-18.wav</AudioFile>
+									<AudioFile>Transition Horror Metal Resonant Groan.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="533993643"/>
+										<MediaID ID="747740617"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="183748-Sinematic_-Mega_Horns-18" ID="{102D79E0-DF3F-4C9A-8A57-0A6E7F8EB9BE}" Platform="Linked"/>
+								<ActiveSource Name="Transition Horror Metal Resonant Groan" ID="{7B31CB55-8BDA-4E34-8166-64AB609443EA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<ActorMixer Name="Phone - mixer" ID="{F20461CA-75D4-45B9-BD7D-7D6C06438A70}" ShortID="639676332">
@@ -2667,6 +2672,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2680,6 +2686,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -2701,13 +2708,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="69679-Piano_chord_eb_minor_add_9-BLASTWAVEFX-06796" ID="{A8406C18-4F28-4982-921F-12527B59B6E3}" ShortID="882918897">
-									<PropertyList>
-										<Property Name="Weight" Type="Real64">
-											<ValueList>
-												<Value>70</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
@@ -5552,6 +5552,196 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SpinningLoom" ID="{C9375451-DE5D-40B2-BBFD-6E1938B05BB1}" ShortID="290052557">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_Toilet" ID="{9167873E-D9C4-4473-A660-684099452F80}" WorkUnitID="{DB549FBE-090B-49EE-9A41-8F5701E111C7}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="288694-OLD_STUFF-Spinning_Wheel-Rolling-02" ID="{B976E788-F2F3-425B-8244-05E39187FF7C}" ShortID="107587021">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="288694-OLD_STUFF-Spinning_Wheel-Rolling-02" ID="{4D245815-EAAA-46BE-BA98-7319FE7ECE83}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0789999961853027"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.131666660308838"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.04522212346395"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.89800069936117"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>288694-OLD_STUFF-Spinning_Wheel-Rolling-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="615286555"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="288694-OLD_STUFF-Spinning_Wheel-Rolling-02" ID="{4D245815-EAAA-46BE-BA98-7319FE7ECE83}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="288696-OLD_STUFF-Spinning_Wheel-Rolling-04" ID="{1DCE962B-D348-4861-9DBD-FCE75A6B6C9D}" ShortID="463080666">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="288696-OLD_STUFF-Spinning_Wheel-Rolling-04" ID="{8A028CCE-E404-4AE1-99A2-6139B86DC402}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0854347788769263"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.123405791711116"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.60101437914199"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.50579777648483"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>288696-OLD_STUFF-Spinning_Wheel-Rolling-04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71490346"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="288696-OLD_STUFF-Spinning_Wheel-Rolling-04" ID="{8A028CCE-E404-4AE1-99A2-6139B86DC402}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="RockingHorse" ID="{D504F01F-FF0E-4B77-9D7B-74919ABEE7DB}" ShortID="676994567">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{64C7AB62-C6A4-4094-9451-E756787D4FB6}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0E804E43-B300-4B21-9C7E-779FFE0917C7}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="0.05"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_Toilet" ID="{9167873E-D9C4-4473-A660-684099452F80}" WorkUnitID="{DB549FBE-090B-49EE-9A41-8F5701E111C7}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{5F89FD2E-CBA5-4521-8FD9-6EF560C1AB0A}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="151574-Foley-Household-Door-Old_Wooden_Door-Hinge_Sound-Squeak-Creeking-Eerie-HutchSFX" ID="{C45369E0-87D8-44B8-BACA-7A22587BB8F7}" ShortID="1030025335">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-320</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F9DAA380-5E8F-4333-8386-1DF613C01FAD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{384FEABF-0247-46CC-B197-132F35622C40}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C45DB433-D797-4E67-951E-85BD25C4D08A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="151574-Foley-Household-Door-Old_Wooden_Door-Hinge_Sound-Squeak-Creeking-Eerie-HutchSFX" ID="{12300DB2-2FBF-4B35-8AA3-AC3855B2A97C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0860486070531002"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.144986009144265"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.262860813326594"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.74101091838863"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>151574-Foley-Household-Door-Old_Wooden_Door-Hinge_Sound-Squeak-Creeking-Eerie-HutchSFX.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="786880708"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="151574-Foley-Household-Door-Old_Wooden_Door-Hinge_Sound-Squeak-Creeking-Eerie-HutchSFX" ID="{12300DB2-2FBF-4B35-8AA3-AC3855B2A97C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{23EA11B4-369F-41E0-9293-C611BDDDDCA0}" ShortID="351127542">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<ObjectRef Name="SlowDown" ID="{2CFFF1F3-670A-4C72-9987-B4487975D745}" WorkUnitID="{0DEDE795-51E4-4F80-A4B5-4163D7B789E1}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>

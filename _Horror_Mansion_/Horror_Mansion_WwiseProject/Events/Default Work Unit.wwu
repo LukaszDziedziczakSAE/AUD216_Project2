@@ -535,6 +535,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_SpinningLoom" ID="{BDF9A2C1-E121-431B-8FAE-A47E6F7FC42B}">
+							<ChildrenList>
+								<Action Name="" ID="{EF8C9291-13DF-4C18-AB76-D5D79EB9C0F9}" ShortID="187222069">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SpinningLoom" ID="{C9375451-DE5D-40B2-BBFD-6E1938B05BB1}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_RockingHorse" ID="{D15F025E-FD63-4E32-B9BE-5D3EFCB73B16}">
+							<ChildrenList>
+								<Action Name="" ID="{4C6CD952-F21F-4A7A-AC62-2AF6A2169B07}" ShortID="942324009">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RockingHorse" ID="{D504F01F-FF0E-4B77-9D7B-74919ABEE7DB}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -40,7 +40,9 @@ namespace AK
         static const AkUniqueID PLAY_OUTSIDE_AMBIENCE_AND_MUSIC_BLEND_CONTAINER = 1513891888U;
         static const AkUniqueID PLAY_PIANO = 1479974693U;
         static const AkUniqueID PLAY_PLAYER_DIALOG_RANDOM = 2752535182U;
+        static const AkUniqueID PLAY_ROCKINGHORSE = 4228799366U;
         static const AkUniqueID PLAY_SMALL_CLOCK = 813190480U;
+        static const AkUniqueID PLAY_SPINNINGLOOM = 2216875959U;
         static const AkUniqueID PLAY_STINGER = 754369548U;
         static const AkUniqueID PLAY_TELEPHONE_PICKUP = 2735023657U;
         static const AkUniqueID PLAY_TELEPHONE_RING = 4029451095U;

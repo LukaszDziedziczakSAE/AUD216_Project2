@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1F0BCCC8-96D6-BA23-9F13-EF2661CC13BF}",
+    "Hash": "{8FD01BEA-8866-6B71-DC23-3B333C19D66F}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -344,7 +344,7 @@
     "Type": "User",
     "GUID": "{68FEB4CA-3C1B-4018-848B-070A85B21B05}",
     "Language": "SFX",
-    "Hash": "{E010E4D4-B4EA-68E3-506D-272E77079FDA}",
+    "Hash": "{0E3D2412-3F0E-7B1A-AD7A-6FC11C7A6CAC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -404,6 +404,14 @@
       "Location": "Memory",
       "ShortName": "249224-Game_Objective_Completed_2.wav",
       "CachePath": "67/{6736B837-868F-18EC-5E4C-33DA4B11CA3F}.wem"
+     },
+     {
+      "Id": "71490346",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "288696-OLD_STUFF-Spinning_Wheel-Rolling-04.wav",
+      "CachePath": "E4/{E47C3F52-A62B-FE85-12A0-2734E784D45D}.wem"
      },
      {
       "Id": "72740587",
@@ -643,7 +651,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_13.wav",
-      "CachePath": "27/{2744C830-2AF4-08AA-4F5E-21981EDCB954}.wem"
+      "CachePath": "75/{75C4B8D0-C8FA-6AC5-252E-BE37AE13FD87}.wem"
      },
      {
       "Id": "322399411",
@@ -651,7 +659,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_03.wav",
-      "CachePath": "B8/{B8E85691-6899-DA94-E408-C1688FBEECCD}.wem"
+      "CachePath": "8B/{8B77745B-BC59-862C-43F8-82A37FF0E4EC}.wem"
      },
      {
       "Id": "322434705",
@@ -723,7 +731,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_02.wav",
-      "CachePath": "00/{004F9961-C0AA-8F72-7151-DBD52BFB9F45}.wem"
+      "CachePath": "8A/{8A81C4F6-1874-26D7-612C-F556CEE9B434}.wem"
      },
      {
       "Id": "438912827",
@@ -846,14 +854,6 @@
       "CachePath": "D5/{D599A9BE-91DE-4F05-B43C-CD5935374665}.wem"
      },
      {
-      "Id": "533993643",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "183748-Sinematic_-Mega_Horns-18.wav",
-      "CachePath": "5E/{5EEAFD98-740F-B288-C7D5-23F03C3B6608}.wem"
-     },
-     {
       "Id": "554323042",
       "Language": "SFX",
       "Streaming": "false",
@@ -867,7 +867,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_11.wav",
-      "CachePath": "66/{6675F47C-E5F9-2DDE-BCDB-E0356798EB1E}.wem"
+      "CachePath": "57/{576C1DAA-1E33-645C-7B52-B4AA0C88CF38}.wem"
      },
      {
       "Id": "603907209",
@@ -884,6 +884,14 @@
       "Location": "Memory",
       "ShortName": "footstep-rock8.wav",
       "CachePath": "A1/{A1B96CB5-3B4B-FEDD-1673-DD56756D8DFC}.wem"
+     },
+     {
+      "Id": "615286555",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "288694-OLD_STUFF-Spinning_Wheel-Rolling-02.wav",
+      "CachePath": "71/{716B4CA8-A342-4F90-F902-472CF1450437}.wem"
      },
      {
       "Id": "627623250",
@@ -987,7 +995,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_06.wav",
-      "CachePath": "6C/{6C589FAA-7CA7-A7EE-767C-3E018533B7C3}.wem"
+      "CachePath": "20/{207B5197-C408-39A5-65EB-FC9C5CC518F2}.wem"
      },
      {
       "Id": "727402005",
@@ -995,7 +1003,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_04.wav",
-      "CachePath": "B1/{B1A26CAC-B4D5-C05A-852A-5B3395B3F723}.wem"
+      "CachePath": "38/{3820719C-2EE4-C85F-2A16-F3EEF40C9A7E}.wem"
      },
      {
       "Id": "729967834",
@@ -1030,6 +1038,14 @@
       "CachePath": "39/{3952F82E-29F7-1CDC-11FB-7117AE288D03}.wem"
      },
      {
+      "Id": "747740617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Transition Horror Metal Resonant Groan.wav",
+      "CachePath": "81/{81A117A8-FC9E-DF4B-68FA-21D6CA9A95B4}.wem"
+     },
+     {
       "Id": "761032699",
       "Language": "SFX",
       "Streaming": "false",
@@ -1043,7 +1059,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_07.wav",
-      "CachePath": "67/{67C041D8-F43A-5D72-93A3-B360B48FC7C5}.wem"
+      "CachePath": "1E/{1EC6EA40-B814-45EA-CB33-09AEB34EFAA0}.wem"
      },
      {
       "Id": "773333620",
@@ -1059,7 +1075,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_12.wav",
-      "CachePath": "3A/{3A8929F4-DA7A-FB52-1FFB-ACA16A791324}.wem"
+      "CachePath": "1E/{1E5602FC-07A5-64E4-C6F2-8C6711ACCE58}.wem"
      },
      {
       "Id": "781310447",
@@ -1075,7 +1091,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_05.wav",
-      "CachePath": "C8/{C82910C6-D4A8-BC38-9E63-4C4D9057F192}.wem"
+      "CachePath": "CE/{CED9846F-854B-739C-B857-8129660995A0}.wem"
+     },
+     {
+      "Id": "786880708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "151574-Foley-Household-Door-Old_Wooden_Door-Hinge_Sound-Squeak-Creeking-Eerie-HutchSFX.wav",
+      "CachePath": "D8/{D8AA56EE-28D6-00B2-1E13-016D45D88BA6}.wem"
      },
      {
       "Id": "788218827",
@@ -1123,7 +1147,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_01.wav",
-      "CachePath": "6C/{6C926C64-E90D-F8A8-65A7-EEB0B43EB89E}.wem"
+      "CachePath": "89/{89B7260C-AA00-F41D-700E-97625FF858A8}.wem"
      },
      {
       "Id": "836495611",
@@ -1187,7 +1211,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_09.wav",
-      "CachePath": "05/{056E81F9-9BB6-4291-49C8-7B89350FEB07}.wem"
+      "CachePath": "E3/{E34B5E48-8985-DE8C-7A84-C9C910D2E81A}.wem"
      },
      {
       "Id": "914140394",
@@ -1235,7 +1259,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "VO_Player_10.wav",
-      "CachePath": "F0/{F0D3AA34-7EB5-4A5A-F3ED-5F77C71E229C}.wem"
+      "CachePath": "58/{58EF4FD7-6116-8494-82D2-29A78D2C19B8}.wem"
      },
      {
       "Id": "943642806",
@@ -1399,6 +1423,14 @@
        "GUID": "{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}",
        "LibName": "Wwise Delay",
        "LibId": "6946819"
+      },
+      {
+       "Id": "3101299514",
+       "Name": "SlowDown",
+       "ObjectPath": "\\Effects\\Default Work Unit\\SlowDown",
+       "GUID": "{2CFFF1F3-670A-4C72-9987-B4487975D745}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
       },
       {
        "Id": "3451596814",
@@ -2425,6 +2457,27 @@
       ]
      },
      {
+      "Id": "4228799366",
+      "Name": "Play_RockingHorse",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Play_RockingHorse",
+      "GUID": "{D15F025E-FD63-4E32-B9BE-5D3EFCB73B16}",
+      "Color": "9",
+      "MaxAttenuation": "15",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "786880708"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3101299514"
+        }
+       ]
+      }
+     },
+     {
       "Id": "813190480",
       "Name": "Play_Small_clock",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Clocks\\Play_Small_clock",
@@ -2460,17 +2513,34 @@
       ]
      },
      {
+      "Id": "2216875959",
+      "Name": "Play_SpinningLoom",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX General\\Play_SpinningLoom",
+      "GUID": "{BDF9A2C1-E121-431B-8FAE-A47E6F7FC42B}",
+      "Color": "9",
+      "MaxAttenuation": "15",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "71490346"
+       },
+       {
+        "Id": "615286555"
+       }
+      ]
+     },
+     {
       "Id": "754369548",
       "Name": "Play_Stinger",
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_Stinger",
       "GUID": "{9EEFBBD0-2D4E-486B-A724-554A6E55BB05}",
       "Color": "3",
       "DurationType": "OneShot",
-      "DurationMin": "12.390864",
-      "DurationMax": "12.390864",
+      "DurationMin": "5.9667706",
+      "DurationMax": "5.9667706",
       "MediaRefs": [
        {
-        "Id": "533993643"
+        "Id": "747740617"
        }
       ]
      },
@@ -2882,6 +2952,6 @@
     ]
    }
   ],
-  "FileHash": "{D308D348-53A0-8266-F867-61850D3B3288}"
+  "FileHash": "{98A0448A-4C4B-0010-2375-70622F2C8148}"
  }
 }
